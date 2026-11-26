@@ -16,7 +16,7 @@ function Die(props) {
     
     const transparent = 'rgba(255,255,255,0.0)' // Can you belive it! this makes the dot Transparent
 
-    // Function to generate the dots for each dice value with its color
+    // Function to generate the dots for each dice value with its color !!
     const renderDots = (value) => {
         const dotPatterns = {
             1: [transparent,transparent,transparent,transparent,'black',transparent,transparent,transparent,transparent],
